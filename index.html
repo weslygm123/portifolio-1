@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>teste</title>
+    <style>
+      * {
+        list-style: none;
+        text-decoration: none;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      header{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(235, 235, 223);
+      }
+      .topo{
+          color: rgb(50, 0, 97);
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: larger;
+          display: flex;
+          align-items: center;
+          margin-left: 30px;
+      }
+      header nav ul{
+          display: flex;
+          align-items: center;
+          margin: 15px;
+      }
+      header nav ul a{
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+          margin: 10px;
+      }
+      .topo-final{
+          border-radius:5px ;
+          padding: 5px;
+          background-color:rgb(50, 0, 97);
+      }
+      .topo-final a{
+          color: aliceblue;
+      }
+      main{
+          padding: 10%;
+          background-color: rgb(226, 221, 202);
+          display: flex;
+          justify-content: center;
+      }
+      .corpo{
+          display: flex;
+      }
+      .texto{
+          display: flex;
+          flex-direction: column;
+          margin: 10%;
+
+      }
+      .immg{
+          margin-top: 30px;
+      }
+      img{
+          border-radius:90%;
+          width: 80%;
+          height:80%;
+      }
+      .texto h1{
+          left: 10px;
+          margin: -10%;
+          display: flex;
+          flex-direction: column;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 80px;
+          color: rgb(50, 0, 97);
+      }
+      .texto p{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+          margin-bottom: 10px;
+          margin-top: 10px;
+          margin-left: -10px;
+          color: rgb(50, 0, 97);
+      }
+      .btn1 p{
+          border-radius:10px ;
+          padding: 10px;
+          text-align: center;
+          background-color: rgb(50, 0, 97);
+          color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="topo">DR. Wesly</div>
+      <nav>
+        <ul>
+          <li><a href="#">Loja</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+          <li class="topo-final"><a href="#">Emergencia</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <div class="corpo">
+        <div class="texto">
+          <h1>
+              Pet
+          </h1>
+          <h1>
+              care
+          </h1>
+          <p>Veterinario a Domicilio</p>
+          <div class="btn1">
+              <p class="btn2">acesse nosso site</p>
+          </div>
+        </div>
+        <div class="immg">
+              <img src="img/dog.jpg" alt="dog" /> 
+        </div>
+    </div>
+    </main>
+  </body>
+</html>
